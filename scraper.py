@@ -56,3 +56,5 @@ file_path = "data/prices.csv"
 df.to_csv(file_path, mode="a", header=not os.path.exists(file_path), index=False)
 
 print("Scraping concluído")
+
+print("trigger test")
